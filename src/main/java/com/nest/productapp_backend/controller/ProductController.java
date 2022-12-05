@@ -19,6 +19,10 @@ public class ProductController {
     public String editProduct(){
         return "This is edit page";
     }
+    @GetMapping("/view")
+    public String viewProduct(){
+        return "This is view Product page";
+    }
 
     @PostMapping("/delete")
     public String deleteProduct(){
